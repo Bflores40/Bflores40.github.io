@@ -1,0 +1,283 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<!-- 	This is the "Head" of the HTML document.
+		It contains information that isn't displayed on the actual page, but is useful
+		for the web browser when loading the page	
+	-->
+	<head>
+		<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
+		<title>AstroSites</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
+			 If you want to edit the styling of this page, you should edit the file assets/css/main.css
+			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
+			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
+		-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
+			will load a separate set of CSS stylings from the file assets/css/noscript.css
+			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
+			available. 
+		-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<!-- The body is the location where your site's content will go -->
+	<body class="is-preload">
+
+			<!-- This "div" wraps around all of our content and just changes how things are layed out -->
+			<div id="wrapper">
+
+					<!-- This is where the content that appears on page load exists -->
+					<header id="header">
+						<!-- This is the main content of the front page -->
+						<div class="content">
+							<div class="inner">
+								<!-- Here is a heading where you can put your name -->
+								<h1>
+									Brian L. Flores TESTING
+								</h1>
+								<!-- 	Here is an image where you can put a picture of you. 
+									You can change the width and height attributes below to change how large
+									your image is.
+
+									Try adding "border-radius: 50%;" to the style attribute.
+								-->
+								<!img src="images/ngc6357_hubble_3140_NASA_ESA_and_J_Maiz_Apellaniz.jpg" style="width:300px; height:300px; object-fit: cover;">
+								<img src="images/headshot.jpg" style="width:300px; height:300px; object-fit: cover;"> 
+								<!-- 	Here is a paragraph where you can put your position and institution, or
+									a short line about yourself.
+								-->
+								<p>
+									Ph.D Candiate, Physics  <br> University of Pittsburgh
+								</p>
+								<!-- Here is a paragraph where you can put a link to your CV -->
+								<p>
+									<!-- Note you will want to change where this points to! -->
+									<a href="added_doc/My_CV_v2.pdf" target="_blank">Curriculum Vitae (Last Updated: Fall, 2019)</a>
+								</p>
+							</div>
+						</div>
+						<!-- This is the navigation menu -->
+						<nav>
+							<!-- This element makes an "Unordered List" -->
+							<ul>
+								<!-- This is a "List Item" -->
+								<li>
+									<!-- 	Note that this links to #about, which will move the page to wherever
+										the element with the id "about" exists.
+									-->
+									<a href="#about">About Me</a>
+								</li>
+								<li>
+									<a href="#research">Research</a>
+								</li>
+								<li>
+									<a href="#community">Community</a>
+								</li>
+								<li>
+									<a href="#contact">Contact</a>
+								</li>
+								<!-- 	You can add another button to your navigation menu by adding
+									another List Item with a link inside of it.
+								-->
+								<!-- <li>
+									<a href="images/Astronomy.jpg">My CV</a>
+								</li> -->
+							</ul>
+						</nav>
+					</header>
+
+					<!-- These are the "cards" that appear when you click the buttons on the main page -->
+					<div id="main">
+						<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous 
+							button links to.
+						-->
+						<article id="about">
+							<h2 class="major">About Me</h2>
+							<!-- Here is an image that you can customize for this page -->
+							<span class="image main">
+								<img src="images/Second_headshot.jpg" alt=""/>
+							</span>
+							<!-- Here are three paragraphs where you can fill out information about yourself -->
+							<p>
+								<!-- Items contained in <b> tags are bolded! -->
+								<b>Education:</b>
+								<br>B.S. in Physics, California State University, Long Beach, 2014
+								<br>B.S. in Applied Mathematics, California State University, Long Beach, 2014
+								<br>M.S. in Physics, University of Pittsburgh, 2016
+							</p>
+							<p>
+								<b>Research Interests:</b>
+								<br>Stellar Winds, Spectroscopy, Radiative Transfer, Blue Supergiants, Luminous Blue Variables,
+								Yellow Supergiants, Wolf-Rayet Stars, Type II / Ibc Supernovae, Computational Physics  
+							</p>
+							<p>
+								<b>Publications:</b> <a href="https://ui.adsabs.harvard.edu/">Include ADS link!</a>
+								<br>Using Shell Models to Investigate Clumping in the O7Iaf+ Supergiant AzV83 (in prep)
+							</p>
+						</article>
+
+						<!-- Here is the "Research" card. -->
+						<article id="research">
+							<h2 class="major">Research</h2>
+							<span class="image main">
+								<img src="images/wr124_hubbleschmidt_1289_Hubble_Legacy_Archive_NASA_ESA_Processing_Licence_Judy_Schmidt.jpg" alt=""/>
+								<figcaption><a href="https://www.nasa.gov/image-feature/goddard/a-hubble-cosmic-couple">WR 124 - Hubble Legacy Archive, NASA, and ESA</a></figcaption>
+								
+							</span>
+							<p>
+								The majority of my work involves using the publicly available, radiative transfer code <a href="http://kookaburra.phyast.pitt.edu/hillier/web/CMFGEN.htm">CMFGEN</a>, 
+								developed and maintained by my research advisor, <a href="https://www.physicsandastronomy.pitt.edu/people/d-john-hillier">Dr. John Hillier</a>. 
+								This code was designed to solve the radiative transfer and statistical equilibrium equations in spherical geometry.  It has been designed for application to W-R stars, O stars, 
+								and Luminous Blue-Variables. With this code, I am currently working on the following projects:
+							</p>
+							<p>
+								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
+									the next line.
+								-->
+								<b>Project I: Using "Shells" to characterize clumping in stellar winds</b>
+								<br> Radiatively driven winds of hot, massive stars have been shown to be inherently unstable, leading to the formation of an inhomogeneous
+								structure called clumps (for an overview, see <a href="https://ui.adsabs.harvard.edu/#abs/2008A&ARv..16..209P/abstract">Puls et al. 2008</a>).
+								Further, synthetic spectra from radiative transfer codes that do not correct for clumping have been shown to be inconsistent with observations.
+								As such, the analysis of massive star spectra requires an allowance for the inhomogeneous properties of their winds, especially if our goal is 
+								to derive accurate stellar quantities such as mass-loss rates and abundances.
+								<br>
+								<br> Dr. Hillier and I are implementing the use of "Shells" - highly dense regions embedded in the wind - to treat clumping in CMFGEN. Doing so 
+								allows us to study clump-sensitive features in the star's spectra and make comparison with the volume-filling factor approach, a method 
+								widely adopted in radiative transfer code for treating clumping. Currently, a paper is in prep for publication (Using Shell Models to Investigate Clumping in the O7Iaf+ Supergiant AzV83)
+								that uses the Shell method to sythesize spectra for comparison with those observed from an O star,
+								<a href ="http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=azv+83&submit=SIMBAD+search"> AzV 83</a>.
+								<br>
+								<br> In an upcoming paper, we'll expand on this method and make comparison with spectra observed from a Wolf-Rayet star, 
+								<a href="http://simbad.u-strasbg.fr/simbad/sim-basic?Ident=HD50896&submit=SIMBAD+search"> HD 50896 </a>.
+								
+								<! – features that depend linearly on density (e.g., electron scattering wings many UV P Cygni profiles in O stars) cannot be fitted
+								with the same mass loss that is needed to match most emission features (e.g., H&alpha; emission in O stars); the occurrence of P Cygni profiles of
+								so-called super-ions (O VI &lambda;&lambda;1031; 1037 and N V &lambda;&lambda;1238; 1242) which are inconsistent with smooth homogeneous winds; and 
+								phosphorus abundances derived from spectroscopic studies of O stars may differ from the global abundance trends if clumping is ignored. >
+								
+								<! &#8491;>
+							</p>
+							<p>
+								<b>Project II: Incorperating Convections to CMFGEN for NLTE modeling of Yellow Supergiants</b>
+								<br>Another problem that I have started looking into involves yellow supergiants (YSGs) - an intermediate phase in a 20 - 40 M<sub>&#9737;</sub>
+								star's evolution that is short-lived (on the order of 1% or less of its lifetime). Their numbers and location on the evolutionary path are 
+								sensitive to the uncertainties in the treatment of their winds and convection. As Kippenhanh & Weigert (1990, p. 468) puts it \[The yellow supergiant]
+								phase is a sort of magnifying glass, revealing relentlessly the faults of calculations of earlier phases." More recently, a puzzle 
+								came to light when a Type IIb Supernova (SN), SN IIb 2011dh, was observationally confirmed to have a YSG progenitor (see 
+								<a href="https://ui.adsabs.harvard.edu/abs/2014ApJ...785...95M/abstract"> Maeda et. al. 2014 </a>). Type IIb SNe are thought to have 
+								progenitors of evolved stars, such as Wolf-Rayet stars.
+								<br>
+								<br>From our current understanding of the star's YSG phase, it represent a key transition phase where its mass-loss rate will help dictate 
+								future stages of its life. However, CMFGEN is ill-equiped to model the atmosphere and winds of these objects since convective cells are expected
+								to form just below the photosphere. Thus, I'm currently working on implenting convection to CMFGEN and test it with another code that has already 
+								implented, ATLAS9.
+							</p>
+						</article>
+
+						<!-- Here is the "Community" card. -->
+						<article id="community">
+							<h2 class="major">Community</h2>
+							<span class="image main">
+								<img src="images/Shanghai_class.jpg" alt=""/>
+							</span>
+							<p>
+								<b>Teaching:</b>
+							</p>
+							<p>
+								<b>Outreach:</b>
+							</p>
+							<p>
+								<b>Equity & Inclusion:</b>
+							</p>
+						</article>
+
+						<!-- Here is a the "Contact" card. -->
+						<article id="contact">
+							<h2 class="major">Contact</h2>
+							<p> 
+								<b>Email: BLF40@PITT.EDU</b> 
+							</p>
+							<p> 
+								<b>Address:</b> 
+							</p>
+
+							<!-- 	Here are the fancy icons that link to your social media.
+								These icons are rendered using Font Awesome fonts, and you can find more icons
+								here: https://fontawesome.com/icons
+							-->
+							<ul class="icons">
+								<!-- The Twitter icon -->
+								<li>
+									<!-- 	Note that you need to change the link to point to your page.
+										Replace "#" with your Twitter profile page.
+									-->
+									<a href="#" class="icon fa-twitter">
+										<span class="label">Twitter</span>
+									</a>
+								</li>
+								<!-- The Facebook icon -->
+								<li>
+									<a href="#" class="icon fa-facebook">
+										<span class="label">Facebook</span>
+									</a>
+								</li>
+								<!-- The Instagram icon -->
+								<li>
+									<a href="#" class="icon fa-instagram">
+										<span class="label">Instagram</span>
+									</a>
+								</li>
+								<!-- The GitHub icon -->
+								<li>
+									<a href="#" class="icon fa-github">
+										<span class="label">GitHub</span>
+									</a>
+								</li>
+								<!-- 	We can add a new icon by searching on the Font Awesome website
+									for the correct class name and inserting it as a new list item.
+
+									We found "envelope" here: https://fontawesome.com/icons/envelope
+								-->
+								<!-- <li>
+									<a href="#" class="icon fa-envelope">
+										<span class="label">Email</span>
+									</a>
+								</li> -->
+							</ul>
+						</article>
+					</div>
+
+					<!-- This is the footer that appears at the bottom of the page -->
+					<footer id="footer">
+						<!-- 	You can change "Untitled" to your name to show everyone that
+							this is your work.
+						-->
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+			<!--	This is the background image of the site.
+				All configuration of the background is done with CSS.
+				Look in the file assets/css/main.css and search for "#bg" to
+				see how this element is styled. Look for comments pointing 
+				to where you can set a new background image.
+			-->
+			<div id="bg"></div>
+
+			<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
